@@ -1,0 +1,87 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--header-footer-background-color);
+}
+.footer__envelope {
+  margin-right: 70px;
+}
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
+}
+.footer__label {
+  color: var(--first-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.footer__envelope {
+  margin-right: 93px;
+  padding: 0px;
+}
+
+.footer__text {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--first-color);
+}
+.social__item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--footer-social-color);
+}
+
+.footer__mailing {
+  margin: 0px;
+}
+.footer__form-input {
+  display: block;
+  width: 358px;
+  min-height: 50px;
+  outline: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 0px 15px 16px;
+  margin-right: 12px;
+
+  color: var(--first-color);
+  background-color: var(--header-footer-background-color);
+  box-shadow: 4px, 0px, 4px rgba(0, 0, 0, 0.15);
+}
+.footer__form-input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+.footer__button {
+  padding: 10px 62px 10px 29px;
+}
+
+.footer__button:hover,
+.footer__button:focus {
+  background-color: #188ce8;
+  outline: 1px solid #188ce8;
+}
+.footer__button-field {
+  position: relative;
+}
+.footer__button-icon {
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
+  background-image: url(../images/icon-send.svg);
+  cursor: pointer;
+  position: absolute;
+}

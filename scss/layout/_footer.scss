@@ -43,12 +43,16 @@
   border-radius: 50%;
   background-color: var(--footer-social-color);
 }
-
+.footer__social-icon {
+  fill: var(--first-color);
+}
 .footer__mailing {
   margin: 0px;
 }
-.footer__form-input {
+.footer__form {
   display: flex;
+}
+.footer__form-input {
   width: 358px;
   min-height: 50px;
   outline: 1px solid rgba(255, 255, 255, 0.3);
@@ -74,7 +78,6 @@
   outline: 1px solid #188ce8;
 }
 .footer__button-field {
-  display: flex;
   position: relative;
 }
 .footer__button-icon {

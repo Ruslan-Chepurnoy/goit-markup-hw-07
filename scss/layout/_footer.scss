@@ -10,6 +10,7 @@
 .footer__container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 .footer__logo {
   display: block;
@@ -47,7 +48,7 @@
   margin: 0px;
 }
 .footer__form-input {
-  display: block;
+  display: flex;
   width: 358px;
   min-height: 50px;
   outline: 1px solid rgba(255, 255, 255, 0.3);
@@ -73,6 +74,7 @@
   outline: 1px solid #188ce8;
 }
 .footer__button-field {
+  display: flex;
   position: relative;
 }
 .footer__button-icon {

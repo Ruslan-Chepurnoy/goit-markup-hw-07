@@ -569,9 +569,9 @@ textarea {
 }
 
 .business-img {
-  width: 370px;
-  aspect-ratio: auto 370 / 294;
-  height: 294px;
+  width: 100%;
+  display: block;
+  height: auto;
 }
 
 .main-header {
